@@ -1,0 +1,13 @@
+openapi: 3.0.3
+info: 
+  title: Eazyshop Products APIs Definition
+  version: 0.0.1
+servers:
+- url: https://swapi.online/api
+paths: 
+  /films
+    get:
+      summary: List all starwars films
+      responses:
+        '200':
+          description: A list of films
