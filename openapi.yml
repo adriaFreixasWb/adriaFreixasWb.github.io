@@ -29,8 +29,27 @@ paths:
                       type: integer
                     director:
                       type: string
-                    release:
+                    release_date:
                       type: string
                       format: date
                     opening_crawl:
                       type: string
+              examples:
+                1: 
+                  value:
+                    - id: 1
+                      producer: "Gary Kurtz, Rick McCallum"
+                      title: "A New Hope"
+                      episode_id: 4
+                      director: "George Lucas"
+                      release_date: "1977-05-25"
+                      opening_crawl: "It is a period of civil war..."
+                      
+                    - id: 2
+                      producer: "Gary Kurtz, Rick McCallum"
+                      title: "The Empire Strikes Back"
+                      episode_id: 5
+                      director: "George Lucas"
+                      release_date: "1980-05-17"
+                      opening_crawl: "It is a dark time for the\r\nRebellion..."
+                
