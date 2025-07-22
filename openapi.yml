@@ -4,4 +4,20 @@ info:
   version: 0.0.1
 servers:
 - url: https://swapi.online/api
-paths: {}
+paths:
+  /films:
+    get:
+      summary: List of starwars filsm
+      description: List all starwars films on filming order
+      responses:
+        '200':
+          description: Starwars films
+          content:
+            application/json: 
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
