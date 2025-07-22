@@ -21,3 +21,16 @@ paths:
                   properties:
                     id:
                       type: integer
+                    producer:
+                      type: string
+                    title:
+                      type: string
+                    episode_id:
+                      type: integer
+                    director:
+                      type: string
+                    release:
+                      type: string
+                      format: date
+                    opening_crawl:
+                      type: string
