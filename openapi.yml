@@ -1,36 +1,7 @@
 openapi: 3.0.3
 info: 
-  title: Eazyshop Products APIs Definition
+  title: Starwars APIs Definition
   version: 0.0.1
 servers:
-- url: http://www.traveltech.ro/alpha/api/v1
-paths: 
-  /films:
-    get:
-      summary: Films
-      description: Returns the list of starwars films
-      responses:
-        '200':
-          description: A list starwars films
-          content:
-            application/json:
-              schema:
-                type: array
-                items: 
-                  type: object
-                  properties:
-                    id:
-                      type: integer
-                    producer:
-                      type: string
-                    title:
-                      type: string
-                    episode_id:
-                      type: integer
-                    director:
-                      type: string
-                    release_date:
-                      type: string
-                      format: date
-                    opening_crawl:
-                      type: string
+- url: https://swapi.online/api
+paths: {}
